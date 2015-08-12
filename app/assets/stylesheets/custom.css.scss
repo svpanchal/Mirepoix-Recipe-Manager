@@ -9,28 +9,10 @@ $navbar-default-color: $light-orange;
 
 //design myRecipes button with id 'logo'
 
-.jumbotron {
-  background-image: image-url("wallpaper.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-
-}
-
-.jumbotext
-{
-  background-color: rgba(100,100,100,.3);
-  color: #fff0ed;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 #logo
 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 20px 10px 10px;
   float: left;
-  margin-right: 20px;
-  margin-left: 10px;
   font-size: 2em;
   color: #fff;
   text-transform: uppercase;
@@ -45,26 +27,9 @@ $navbar-default-color: $light-orange;
   text-decoration: none;
 }
 
-.recipe_name
-{
-  text-transform: uppercase;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-.user_account
-{
-  float: right;
-  margin-top: 20px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-
-}
-
 body
 {
   padding-top: 80px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  background-color: #fff0ed;
-
 }
 
 .nav_item
@@ -73,44 +38,6 @@ body
   float: left;
   margin-top: 20px;
 
-}
-
-
-.nav_ul_item
-{
-  padding-left: 25px;
-  float: left;
-  margin-top: 20px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-
-}
-
-.comment
-{
-  margin-top: 13px;
-
-}
-
-.thick_divider
-{
-  display: block; height: 1px;
-  border: 0; border-top: 1px solid #ccc;
-  margin: 1em 0; padding: 0;
-}
-
-.input_checkbox input { //name of checkbox for styles and ingredients in _form.html.erb
-// only edit the INPUT
-  width: auto !important;
-}
-
-.login_btn
-{
-  padding: 8px 28px 10px 10px;
-    font-size: 20px;
-    line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
 }
 
 .center
@@ -137,7 +64,7 @@ h2
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #696969;
+  color: #777;
 }
 
 .left
@@ -149,45 +76,6 @@ h2
 .footer
 {
   margin-top: 25px;
-  border-top: 1px solid #800000;
-  color: #DC143C;
-
-}
-
-.chef_info{
-  margin-top: 10px; //to move the chef pics down a little bit
-}
-
-.gravatar{
-  border-radius: 40px;
-}
-
-.well{
-  background-color: #EDEDED;
-}
-
-input, textarea, select, .uneditable-input{ //those help allign the text box in new.html.erb
-  border: 1px solid #d2d2d2;
-  border-radius: 5px; // to got a curve edge on the box
-  width: 100%;
-  margin-bottom: 15px;
-
-}
-
-input{
-  height: auto !important;
-}
-
-
-span.picture { //to edit the part of 'choose file to upload' in _form
-  margin-top: 10px;
-  input {
-    border:0;
-  }
-}
-
-
-.show_recipe { //to edit recipe's pictures on show.html.erb
-  margin: 10px 10px;
-
+  border-top: 1px solid #eaeaea;
+  color: #777;
 }
