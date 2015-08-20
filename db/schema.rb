@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20150816183620) do
 
   create_table "chefs", force: :cascade do |t|
-    t.string   "name"
+    t.string   "chefname"
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
