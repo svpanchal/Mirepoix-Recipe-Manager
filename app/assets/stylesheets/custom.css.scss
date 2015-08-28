@@ -81,9 +81,24 @@ h2
 }
 
 .chef_info {
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 .gravatar {
-  border-radius: 10px
+  border-radius: 10px;
+}
+
+.well {
+  background-color: #ededed;
+}
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
 }
