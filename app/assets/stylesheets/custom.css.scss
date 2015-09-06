@@ -1,65 +1,62 @@
-$navbar-default-bg: rgba(102,0,0,.7);
-$light-orange: #FFD700;
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
 $navbar-default-color: $light-orange;
-// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-//design myRecipes button with id 'logo'
-
-#logo
-{
-  margin: 10px 20px 10px 10px;
+#logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
   float: left;
+  margin-right: 10px;
   font-size: 2em;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0;
+  letter-spacing: -1px;
   padding-top: 9px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
 }
 
-#logo:hover
-{
+#logo:hover {
   color: white;
   text-decoration: none;
 }
 
-body
-{
+body {
   padding-top: 80px;
 }
 
-.nav_item
-{
+.nav_item {
   margin-left: 25px;
   float: left;
   margin-top: 20px;
-
 }
 
-.center
-{
-  text-align:center;
+.nav_ul_item {
+  padding-left: 25px;
+  float: left;
+  margin-top: 20px;
+}
 
+
+.center {
+  text-align: center;
 }
 
 h1, h2, h3, h4 {
   line-height: 1;
 }
 
-h1
-{
-  font-size: 4em;
+h1 {
+  font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
 }
 
-h2
-{
+h2 {
   font-size: 1.2em;
   margin-bottom: 30px;
   text-align: center;
@@ -67,14 +64,12 @@ h2
   color: #777;
 }
 
-.left
-{
+.left {
   text-align: left;
   letter-spacing: .5px;
 }
 
-.footer
-{
+.footer {
   margin-top: 25px;
   border-top: 1px solid #eaeaea;
   color: #777;
@@ -89,7 +84,7 @@ h2
 }
 
 .well {
-  background-color: #ededed;
+  background-color: #EDEDED;
 }
 
 input, textarea, select, .uneditable-input {
@@ -97,6 +92,10 @@ input, textarea, select, .uneditable-input {
   border-radius: 5px;
   width: 100%;
   margin-bottom: 15px;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
 
 input {
@@ -111,5 +110,5 @@ span.picture {
 }
 
 .show_recipe {
-  margin: 10px;
+  margin: 10px 10px 10px 10px;
 }
