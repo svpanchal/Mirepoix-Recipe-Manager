@@ -8,7 +8,7 @@
     </p>
   </div>
   <div class="col-md-8">
-    <%= if logged_in? and @recipe.chef == current_user %>
+    <% if logged_in? and @recipe.chef == current_user %>
       <%= link_to 'Edit this recipe', edit_recipe_path(@recipe), class: 'btn btn-success pull-right' %>
     <% end %>
     <h3><%= @recipe.summary %></h3>
@@ -31,4 +31,4 @@
     </div>
   </div>
 </div>
-<h5><%= link_to 'Return to Recipes Listing', recipes_path, class: "btn btn-warning btn-small" %></h5>
+<h5><%= link_to 'Return to Recipes Listing', recipes_path, class: 'btn btn-warning btn-small' %></h5>
