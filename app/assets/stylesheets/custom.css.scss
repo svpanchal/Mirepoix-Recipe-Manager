@@ -1,5 +1,5 @@
 $navbar-default-bg: #312312;
-$light-orange: #ff8c00;
+$light-orange: #8E289A;
 $navbar-default-color: $light-orange;
 
 
@@ -7,21 +7,28 @@ $navbar-default-color: $light-orange;
 @import "bootstrap";
 
 #logo {
+  font-family: 'Lobster', cursive;
   margin-top: 10px;
   margin-bottom: 10px;
   float: left;
   margin-right: 10px;
   font-size: 2em;
   color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
+  text-transform: none;
   padding-top: 9px;
-  font-weight: bold;
+  font-weight: lighter;
+  background-color: #DE2AB1;
+  border-color: #AA39B8
+}
+
+.jumbotron h1 {
+  font-family: 'Lobster', cursive;
 }
 
 #logo:hover {
   color: white;
   text-decoration: none;
+  background-color: #C926A1
 }
 
 body {
@@ -111,4 +118,40 @@ span.picture {
 
 .show_recipe {
   margin: 10px 10px 10px 10px;
+}
+
+.btn-warning {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #62DEBF
+}
+
+.btn-warning:hover {
+  color: #fff;
+  background-color: #46CFAC;
+  border-color: #8FEBD4;
+}
+
+.btn-success {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #F5CF38;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #EDC215;
+  border-color: #EDC215;
+}
+
+.btn-success:active  {
+  color: #fff;
+  background-color: #EDC215;
+  border-color: #EDC215;
 }
